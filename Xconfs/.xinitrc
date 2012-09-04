@@ -14,5 +14,6 @@ export LC_CTYPE=fi_FI.UTF-8
 export LANG=en_US.UTF-8
 
 xset -b
+setxkbmap -option "nbsp:none"
 
 exec dwm
