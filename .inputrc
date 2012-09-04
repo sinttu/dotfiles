@@ -1,0 +1,4 @@
+set show-all-if-ambiguous on
+set editing-mode vi
+set completion-ignore-case On
+set echo-control-characters Off

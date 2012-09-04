@@ -1,0 +1,24 @@
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias ..='cd ..'
+alias ...='cd ../..'
+
+alias du='du -h'
+alias df='df -h'
+alias disk='df -h | grep /dev/sd'
+alias pingg='ping www.google.com'
+
+alias cal='cal -m'
+alias caly='cal -y'
+
+
+alias pacy='sudo pacman -Syyu'
+alias pacs='sudo pacman -S'
+alias pacss='sudo pacman -Ss'
+
+alias gc='git commit -m'
+alias ga='git add'
+alias gs='git status'
+alias gd='git diff'
+
+alias sudo='sudo '

@@ -1,0 +1,6 @@
+(xbindkey '("XF86AudioRaiseVolume") "pacmd set-sink-volume 0 $(printf '0x%x' $(( $(pacmd dump|grep set-sink-volume|cut -f3 -d' ') + 0x800)) )")
+(xbindkey '("XF86AudioLowerVolume") "pacmd set-sink-volume 0 $(printf '0x%x' $(( $(pacmd dump|grep set-sink-volume|cut -f3 -d' ') - 0x800)) )")
+(xbindkey '("XF86TouchpadToggle") "toggle-pads")
+(xbindkey '("XF86AudioNext") "rhythmbox-client --next")
+(xbindkey '("XF86AudioPrev") "rhythmbox-client --prev")
+(xbindkey '("XF86AudioPlay") "rhythmbox-client --play-pause")
